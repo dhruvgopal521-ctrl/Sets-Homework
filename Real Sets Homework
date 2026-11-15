@@ -1,0 +1,20 @@
+
+Fruit_set = set({})
+Fruit_set.add("Banana")
+Fruit_set.add("Apple")
+Fruit_set.add("Mango")
+Fruit_set.add("Grapes")
+    
+print(Fruit_set)
+
+Fruit_set.remove("Banana")
+
+print(Fruit_set)
+
+if "Apple" in Fruit_set:
+    print("Yes it is in the list")
+else:
+    print("No it is not in the list")
+
+for i in Fruit_set:
+    print(i)
